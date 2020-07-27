@@ -7,7 +7,7 @@
   </head>
   <body>
     <header>
-      <h1>Boolean Hotel</h1>
+      <h1>Elvis C'Ostello</h1>
       <nav>
         <ul class="navigation">
           <li>
