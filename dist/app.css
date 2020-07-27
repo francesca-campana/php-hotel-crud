@@ -6,9 +6,10 @@
 
 header {
   height: 90px;
-  background-color: coral;
+  background-color: #f3f3f3;
   padding: 20px 10px;
-  color: #f3f3f3;
+  color: coral;
+  border-bottom: 1px solid coral;
 }
 
 header nav .navigation {
