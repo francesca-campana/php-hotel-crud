@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 90px;
+  background-color: #f3f3f3;
+  padding: 20px 10px;
+  color: coral;
+}
+
+header nav .navigation {
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+header nav .navigation a {
+  color: coral;
+}
+
+main {
+  padding: 20px 10px;
+}
+
+main td {
+  padding: 10px;
+  border: 1px solid lightgray;
+}
+
+main td a {
+  text-decoration: none;
+  color: coral;
+  font-size: 15px;
+  /* padding-top: 10px; */
+}
+

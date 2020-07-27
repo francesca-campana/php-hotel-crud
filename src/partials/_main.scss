@@ -1,0 +1,13 @@
+main {
+  padding: 20px 10px;
+  td {
+   padding: 10px;
+   border: 1px solid lightgray;
+   a {
+     text-decoration: none;
+     color: $primary_color;
+     font-size: 15px;
+     /* padding-top: 10px; */
+   }
+ }
+}
