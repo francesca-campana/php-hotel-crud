@@ -4,7 +4,7 @@
 
 
 <main>
-  <h2>Modifica stanza numero </h2>
+  <h2>Modifica stanza numero: <?php echo $room['room_number']; ?> </h2>
 
   <form class="" action="<?php echo $basepath . '/update/update.php'; ?>" method="post">
     <input type="hidden" name="roomid" value="<?php echo $room['id']; ?>">

@@ -13,7 +13,7 @@ var_dump($_POST);
 // var_dump($room_floor);
 // var_dump($room_beds);
 
-$sql = "UPDATE `stanze` SET `room_number` = $room_number, `floor` = $room_floor, `beds` = $room_beds, `update_at` = NOW() WHERE `id` = $room_id";
+$sql = "UPDATE `stanze` SET `room_number` = $room_number, `floor` = $room_floor, `beds` = $room_beds WHERE `id` = $room_id";
 //var_dump($sql);
 
 $result = $conn->query($sql);
@@ -22,8 +22,8 @@ $result = $conn->query($sql);
 //var_dump($results);
 
 if ($result) {
-  echo 'update avvenuto';
-  //header('Location: ' . $basepath . '?uproom=' . $room_number);
+  //echo 'update avvenuto';
+  header('Location: ' . $basepath . '?uproom=' . $room_number);
 } else {
   //die("Che stai combinando");
   echo 'errorone';

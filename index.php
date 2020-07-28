@@ -5,7 +5,7 @@
     <main>
       <?php if (isset($_GET['uproom'])) {?>
         <p>Aggiornamento completato</p>
-        <p>La stanza n <?php echo $_GET['uproom']; ?> è stata aggiunta con successo</p>
+        <p>La stanza n: <?php echo $_GET['uproom']; ?> è stata aggiornata con successo</p>
 
       <?php } ?>
       <!-- Tabella -->
